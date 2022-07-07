@@ -35,3 +35,13 @@ body {
   background-color: #F2ECE4;
   padding: 20px;
 }
+
+#form {
+  color: white;
+}
+
+.preguntas {
+  color: white;
+  padding: 50px;
+  margin: 100px;
+}
