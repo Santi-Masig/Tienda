@@ -1,2 +1,2 @@
 # Tienda
-Tienda con Bootstrap (Desarollo Web en CoderHouse
+Tienda con Bootstrap (Desarollo Web en CoderHouse)
