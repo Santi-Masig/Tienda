@@ -4,11 +4,11 @@
 }
 
 body {
-  background: linear-gradient(to left, #324E73, #1E3040 );
+  background: linear-gradient(to left, #324e73, #1e3040);
 }
 
 .bg-nav {
-  background-color: #C9D7F2 ;
+  background-color: #c9d7f2;
 }
 
 #destacados {
@@ -16,7 +16,7 @@ body {
 }
 
 .col {
-  background: #F2ECE4;
+  background: #f2ece4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,13 +26,13 @@ body {
 .col:hover {
   cursor: pointer;
   color: #000000;
-  background: #324E73;
+  background: #324e73;
 }
 
 .footer p {
   color: black;
   grid-column: 1/6;
-  background-color: #F2ECE4;
+  background-color: #f2ece4;
   padding: 20px;
 }
 
@@ -44,4 +44,16 @@ body {
   color: white;
   padding: 50px;
   margin: 100px;
+}
+
+.card-body a:hover {
+  background-color: black;
+}
+
+#infProduc {
+  color: white;
+}
+
+#titleProd {
+  color: white;
 }
