@@ -16,16 +16,17 @@ body {
 }
 
 .col {
-  background: #f2ece4;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.5s ease;
-}
-.col:hover {
-  cursor: pointer;
-  color: #000000;
-  background: #324e73;
+    background: #f2ece4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+
+    &:hover {
+        cursor: pointer;
+        color: #000000;
+        background: #324e73;
+    }
 }
 
 .footer p {
@@ -55,4 +56,4 @@ body {
 
 #titleProd {
   color: white;
-}/*# sourceMappingURL=main.css.map */
+}
