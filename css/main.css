@@ -16,7 +16,7 @@ body {
 }
 
 .col {
-  background: #f2ece4;
+  background: #c9d7f2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,11 +28,13 @@ body {
   background: #324e73;
 }
 
+.footer {
+  grid-column: 1/6;
+  background-color: #c9d7f2;
+  padding: 20px;
+}
 .footer p {
   color: black;
-  grid-column: 1/6;
-  background-color: #f2ece4;
-  padding: 20px;
 }
 
 #form {

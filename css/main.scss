@@ -1,3 +1,5 @@
+@import "variables";
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +10,7 @@ body {
 }
 
 .bg-nav {
-  background-color: #c9d7f2;
+  background-color: $colorPrincipal;
 }
 
 #destacados {
@@ -16,7 +18,7 @@ body {
 }
 
 .col {
-    background: #f2ece4;
+    background: $colorPrincipal;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,11 +31,14 @@ body {
     }
 }
 
-.footer p {
-  color: black;
-  grid-column: 1/6;
-  background-color: #f2ece4;
-  padding: 20px;
+.footer {
+    grid-column: 1/6;
+    background-color: $colorPrincipal;
+    padding: 20px;
+
+    p {
+        color: black;
+    }
 }
 
 #form {
