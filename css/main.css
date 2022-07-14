@@ -42,17 +42,30 @@ body {
 }
 
 .preguntas {
-  color: white;
   padding: 50px;
   margin: 100px;
+}
+.preguntas h4 {
+  color: white;
+}
+.preguntas p {
+  color: white;
 }
 
 .card-body a:hover {
   background-color: black;
 }
 
+.card-text {
+  color: #000000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 #infProduc {
   color: white;
+}
+#infProduc p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #titleProd {
