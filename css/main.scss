@@ -42,18 +42,44 @@ body {
 
 #form {
   color: white;
-}
+  @media (max-width: 376px) {
+    margin-top: 20%;
+  }
+  @media (min-width: 376px) and (max-width:768px) {
+    margin-top: 20%;
+  } 
+  @media (min-width:768px) and (max-width:1200px) {
+    margin-top: 20%;
+  }
+  @media (min-width:1200px) {
+    margin-top: 5%;
+  }
+} 
 
 .preguntas {
-  padding: 50px;
-  margin: 100px;
+  margin-left: 10%;
+  h1{
+    color: white;
+  }
   h4 {
     color: white;
   }
   p {
     color: white;
   }
-}
+  @media (max-width: 376px) {
+    margin-top: 20%;
+  }
+  @media (min-width: 376px) and (max-width:768px) {
+    margin-top: 20%;
+  } 
+  @media (min-width:768px) and (max-width:1200px) {
+    margin-top: 20%;
+  }
+  @media (min-width:1200px) {
+    margin-top: 5%;
+  }
+} 
 
 .card-body a:hover {
   background-color: black;
@@ -71,10 +97,6 @@ body {
   p {
     font-family: $fuente_parrafos
   }
-}
- 
-#publiProduc {
-  background-color: #000000;
 }
 
 #titleProd {

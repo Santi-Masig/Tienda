@@ -40,16 +40,58 @@ body {
 #form {
   color: white;
 }
+@media (max-width: 376px) {
+  #form {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 376px) and (max-width: 768px) {
+  #form {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  #form {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 1200px) {
+  #form {
+    margin-top: 5%;
+  }
+}
 
 .preguntas {
-  padding: 50px;
-  margin: 100px;
+  margin-left: 10%;
+}
+.preguntas h1 {
+  color: white;
 }
 .preguntas h4 {
   color: white;
 }
 .preguntas p {
   color: white;
+}
+@media (max-width: 376px) {
+  .preguntas {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 376px) and (max-width: 768px) {
+  .preguntas {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .preguntas {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 1200px) {
+  .preguntas {
+    margin-top: 5%;
+  }
 }
 
 .card-body a:hover {
@@ -70,10 +112,6 @@ body {
 }
 #infProduc p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-#publiProduc {
-  background-color: #000000;
 }
 
 #titleProd {
