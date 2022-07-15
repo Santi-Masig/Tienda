@@ -63,9 +63,17 @@ body {
 
 #infProduc {
   color: white;
+  background-color: #1E3040;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 #infProduc p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#publiProduc {
+  background-color: #000000;
 }
 
 #titleProd {
