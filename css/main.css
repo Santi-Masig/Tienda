@@ -4,11 +4,11 @@
 }
 
 body {
-  background: linear-gradient(to left, #324e73, #1e3040);
+  background: linear-gradient(to left, #21415E, #3D4E5E);
 }
 
 .bg-nav {
-  background-color: #c9d7f2;
+  background-color: #3D77AD;
 }
 
 #destacados {
@@ -16,7 +16,7 @@ body {
 }
 
 .col {
-  background: #c9d7f2;
+  background: #3D77AD;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,11 +30,11 @@ body {
 
 .footer {
   grid-column: 1/6;
-  background-color: #c9d7f2;
+  background-color: #3D77AD;
   padding: 20px;
 }
 .footer p {
-  color: black;
+  color: white;
 }
 
 #form {
